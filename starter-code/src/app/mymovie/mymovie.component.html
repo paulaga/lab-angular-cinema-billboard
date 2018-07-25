@@ -1,3 +1,48 @@
-<p>
-  mymovie works!
-</p>
+<div class="movie" *ngFor="let pel of peli">
+  <h2><small>ROOM {{pel.room}}</small> {{pel.title}}</h2>
+  <div class="pelis-container">
+    <div>
+      <img [src]="pel.poster" alt="">
+    </div>
+    <div>
+      <table cellspacing="10">
+        <tr>
+          <td><span class="peli-sec">Genres</span></td>
+          <td>
+            <p *ngFor="let actors of pel.genres">{{actors}}</p>
+          </td>
+        </tr>
+        <tr>
+          <td><span class="peli-sec">Year</span></td>
+          <td>{{pel.year}}</td>
+        </tr>
+        <tr>
+          <td><span class="peli-sec">Director</span></td>
+          <td>{{pel.director}}</td>
+        </tr>
+        <tr>
+          <td><span class="peli-sec">Actors</span></td>
+          <td><p *ngFor="let actors of pel.actors">{{actors}}</p></td>
+        </tr>
+        <tr>
+          <td><span class="peli-sec">Schedule</span></td>
+          <td><p *ngFor="let actors of pel.hours">{{actors}}</p></td>
+        </tr>
+        <tr>
+          <td><span class="peli-sec">Synopsis</span></td>
+          <td>{{pel.synopsis}}</td>
+        </tr>
+      </table>
+    </div>
+    <!-- <div>
+      <p><span class="peli-sec">Genres</span> {{pel.genres}}</p>
+      <p><span class="peli-sec">Year</span> {{pel.year}}</p>
+      <p><span class="peli-sec">Director</span> {{pel.director}}</p>
+      <p><span class="peli-sec">Actors</span> {{pel.actors}}</p>
+      <p><span class="peli-sec">Schedule</span> {{pel.hours}}</p>
+      <p><span class="peli-sec">Synopsis</span></p>
+      <p>{{pel.synopsis}}</p>
+    </div> -->
+  </div>
+  <button [routerLink]="['/home']">Go back Home!</button>
+</div>

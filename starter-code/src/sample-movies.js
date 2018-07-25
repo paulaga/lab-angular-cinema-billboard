@@ -18,8 +18,8 @@ export const movies = [
       "Gil Bellows"
     ],
     hours: [
-      "Monday, 17.00h",
-      "Tuesday, 17.30h, 19.30h"
+      "Monday - 17.00h",
+      "Tuesday - 17.30h, 19.30h"
     ],
     room: 1
   }, {
@@ -41,8 +41,8 @@ export const movies = [
       "Sterling Hayden"
     ],
     hours: [
-      "Wednesday, 17.00h, 20.00h",
-      "Thursday, 17.30h, 19.30h"
+      "Wednesday - 17.00h, 20.00h",
+      "Thursday - 17.30h, 19.30h"
     ],
     room: 2
   }, {
@@ -64,9 +64,9 @@ export const movies = [
       "Talia Shire"
     ],
     hours: [
-      "Friday, 17.30h, 19.30h",
-      "Saturday, 17.00h, 19.00h, 21.00h",
-      "Sunday, 16.30h"
+      "Friday - 17.30h, 19.30h",
+      "Saturday - 17.00h, 19.00h, 21.00h",
+      "Sunday - 16.30h"
     ],
     room: 3
   }, {
@@ -88,8 +88,8 @@ export const movies = [
       "Gary Oldman"
     ],
     hours: [
-      "Monday, 17.00h",
-      "Tuesday, 17.30h, 19.30h"
+      "Monday - 17.00h",
+      "Tuesday - 17.30h, 19.30h"
     ],
     room: 4
   }, {
@@ -111,8 +111,8 @@ export const movies = [
       "Embeth Davidtz"
     ],
     hours: [
-      "Tuesday, 18.00h, 20.30h",
-      "Thursday, 17.30h, 19.30h"
+      "Tuesday - 18.00h, 20.30h",
+      "Thursday - 17.30h, 19.30h"
     ],
     room: 5
   }

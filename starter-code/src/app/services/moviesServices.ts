@@ -19,10 +19,10 @@ export class movieService {
   theMovies: Array<Movies> = movies;
 
   getMovies(){
-    console.log(this.theMovies)
     return this.theMovies;
   }
   getMovie(id){
-
+    console.log(id)
+    return this.theMovies.filter(e => e.id == id)
   }
 }
