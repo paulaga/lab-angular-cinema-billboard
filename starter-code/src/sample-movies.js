@@ -16,7 +16,12 @@ export const movies = [
       "William Sadler",
       "Clancy Brown",
       "Gil Bellows"
-    ]
+    ],
+    hours: [
+      "Monday, 17.00h",
+      "Tuesday, 17.30h, 19.30h"
+    ],
+    room: 1
   }, {
     id: 2,
     title: "The Godfather",
@@ -34,7 +39,12 @@ export const movies = [
       "Richard S. Castellano",
       "Robert Duvall",
       "Sterling Hayden"
-    ]
+    ],
+    hours: [
+      "Wednesday, 17.00h, 20.00h",
+      "Thursday, 17.30h, 19.30h"
+    ],
+    room: 2
   }, {
     id: 3,
     title: "The Godfather Part II",
@@ -52,7 +62,13 @@ export const movies = [
       "Robert De Niro",
       "John Cazale",
       "Talia Shire"
-    ]
+    ],
+    hours: [
+      "Friday, 17.30h, 19.30h",
+      "Saturday, 17.00h, 19.00h, 21.00h",
+      "Sunday, 16.30h"
+    ],
+    room: 3
   }, {
     id: 4,
     title: "The Dark Knight",
@@ -70,7 +86,12 @@ export const movies = [
       "Michael Caine",
       "Maggie Gyllenhaal",
       "Gary Oldman"
-    ]
+    ],
+    hours: [
+      "Monday, 17.00h",
+      "Tuesday, 17.30h, 19.30h"
+    ],
+    room: 4
   }, {
     id: 5,
     title: "Schindler's List",
@@ -88,6 +109,11 @@ export const movies = [
       "Caroline Goodall",
       "Jonathan Sagall",
       "Embeth Davidtz"
-    ]
+    ],
+    hours: [
+      "Tuesday, 18.00h, 20.30h",
+      "Thursday, 17.30h, 19.30h"
+    ],
+    room: 5
   }
 ]

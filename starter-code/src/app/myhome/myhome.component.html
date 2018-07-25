@@ -1,3 +1,9 @@
-<p>
-  myhome works!
-</p>
+<h1>CINEMA</h1>
+
+<div class="cartelera">
+  <div *ngFor="let movie of cinema">
+    <h2>ROOM {{movie.room}}</h2>
+    <img [src]="movie.poster" alt="poster de la película {{movie.title}}">
+    <p><a href="/movie/{{movie.id}}">{{movie.title}}</a></p>
+  </div>
+</div>
